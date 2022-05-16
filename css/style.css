@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200;300;400;500&family=Permanent+Marker&family=Roboto:wght@100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sec1 {
+  margin: 0px;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar1 .navitem1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar1 .navitem1 ul .active {
+  background-color: black;
+}
+
+.navbar1 .navitem1 ul .active a {
+  color: white;
+  padding: 10px;
+}
+
+.navbar1 .navitem1 ul li {
+  list-style: none;
+  margin: 40px;
+  margin-top: 20px;
+}
+
+.navbar1 .navitem1 ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 1000px;
+}
+
+.content {
+  position: relative;
+  height: 500px;
+}
+
+.content .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  -webkit-animation: fadeInRight 0.9s ease forwards;
+          animation: fadeInRight 0.9s ease forwards;
+}
+
+.content .intro .int1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+}
+
+.content .intro .int2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+.content .intro p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+}
+
+.content .intro .button {
+  margin-top: 20px;
+}
+
+.content .intro .button a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.content .intro .button a:hover {
+  background-color: black;
+  color: white;
+}
+
+.content .intro .button .btn1 {
+  border: 1px solid black;
+  padding: 7px;
+  background-color: black;
+  color: white;
+}
+
+.content .intro .button .btn2 {
+  border: 1px solid black;
+  padding: 7px;
+  margin-left: 15px;
+}
+
+.content .img {
+  position: relative;
+}
+
+.content .img img {
+  position: absolute;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  -webkit-animation: fadeInLeft 0.9s ease forwards;
+          animation: fadeInLeft 0.9s ease forwards;
+}
+
+.content .img .img1 {
+  height: 200px;
+  width: 300px;
+  top: 240px;
+  right: 110px;
+}
+
+.content .img .img2 {
+  height: 200px;
+  width: 300px;
+  right: 310px;
+}
+
+.content .img .img3 {
+  height: 200px;
+  width: 300px;
+  right: 450px;
+  top: 220px;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.slider .carousel-item {
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.teach {
+  background-color: blue;
+  height: 10px;
+}
+/*# sourceMappingURL=style.css.map */

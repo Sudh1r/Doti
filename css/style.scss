@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200;300;400;500&family=Permanent+Marker&family=Roboto:wght@100&display=swap');
+// font-family: 'Bebas Neue', cursive;
+
+// font-family: 'Dosis', sans-serif;
+
+// font-family: 'Permanent Marker', cursive;
+
+// font-family: 'Roboto', sans-serif;
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+.sec1{
+    margin: 0px;
+    height: 90vh;
+    //  background: url(../images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar1{
+   
+    .navitem1{
+        
+
+        ul{
+            display: flex;
+            justify-content: center;
+           
+
+
+            .active{
+                background-color: black;
+               a{
+                   color: white;
+                   padding: 10px;
+               }
+            }
+            
+            li{
+                list-style: none;
+               margin: 40px;
+               margin-top: 20px;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Dosis', sans-serif;
+                    font-weight: 1000px;
+                    
+                }
+            }
+
+        }
+    }
+}
+.content{
+    position: relative;
+    height: 500px;
+   
+    
+    .intro{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+    //    top: 55%;
+    //    left: 50%;
+    left: 40px;
+    top: 40px;
+    animation: fadeInRight 0.9s ease forwards;
+    //    /* bring your own prefixes */
+    //    transform: translate(-50%, -50%);
+     
+        .int1{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 60px;
+           
+        }
+        .int2{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 20px;
+           
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+            margin-top: 10px;
+        }
+        .button{
+            margin-top: 20px;
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: 'Roboto', sans-serif;
+                transition: 0.7s;
+
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+                
+            }
+            .btn1{
+                border: 1px solid black ;
+                padding: 7px;
+                background-color: black;
+                    color: white;
+            }
+            .btn2{
+                border: 1px solid black ;
+                padding: 7px;
+                margin-left: 15px;
+            }
+        }
+      
+    }
+    .img{
+        position: relative;
+        // right: ;
+
+        img{
+            position:absolute ;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            animation: fadeInLeft 0.9s ease forwards;
+          
+        }
+        .img1{
+            height: 200px;
+            width: 300px;
+            top: 240px;
+            right: 110px;
+           
+        }
+        .img2{
+            height: 200px;
+            width: 300px;
+            right: 310px;
+           
+        }
+        .img3{
+            height: 200px;
+            width: 300px;
+            right: 450px;
+           top: 220px;
+           
+        }
+       
+    }
+
+}
+
+@keyframes fadeInLeft{
+	0%{
+
+		opacity: 0;
+		transform: translateX(-30px);
+		
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+@keyframes fadeInRight{
+	0%{
+		opacity: 0;
+		transform: translateX(30px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.slider .carousel-item{
+    height: 85vh;
+    background-position: center;
+	background-size: cover;
+}
+
+
+.teach{
+    background-color: blue;
+    height: 10px;
+}
